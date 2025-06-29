@@ -1,0 +1,38 @@
+{
+    "name": "Garden Party",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Card Kit": "github:alexszeto/card-kit#v0.4.0",
+        "browser-events": "*",
+        "BetterArrays": "github:sargedev/betterarrays#v1.2.1",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#v0.1.2",
+        "Declutter": "github:sargedev/declutter#6b0626bf1bd2c7d9a70b846031b5226e48ee932a",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "pxt": "11.3.48",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
